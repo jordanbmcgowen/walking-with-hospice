@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospice Family Guide — What to Expect, Step by Step</title>
+  <meta name="description" content="A warm, fact-based guide for families navigating hospice care. Understand the process, team, medications, signs of change, and what happens after.">
+  <link href="https://api.fontshare.com/v2/css?f[]=zodiak@300,400,500,700&f[]=general-sans@300,400,500,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root,[data-theme="light"]{--font-display:'Zodiak','Georgia',serif;--font-body:'General Sans','Helvetica Neue',sans-serif;--text-xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--text-sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);--text-base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--text-lg:clamp(1.125rem,1rem + 0.75vw,1.5rem);--text-xl:clamp(1.5rem,1.2rem + 1.25vw,2.25rem);--text-2xl:clamp(2rem,1.2rem + 2.5vw,3.5rem);--space-1:0.25rem;--space-2:0.5rem;--space-3:0.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;--space-20:5rem;--space-24:6rem;--space-32:8rem;--color-bg:#f8f6f1;--color-surface:#faf9f5;--color-surface-2:#fcfcf9;--color-surface-offset:#f2ede4;--color-surface-offset-2:#ebe5dc;--color-surface-dynamic:#e4ddd2;--color-divider:#d8d2c9;--color-border:#cec8be;--color-text:#2a2419;--color-text-muted:#7a7469;--color-text-faint:#b8b2a8;--color-text-inverse:#faf9f5;--color-primary:#4a7c59;--color-primary-hover:#3a6147;--color-primary-active:#2c4d38;--color-primary-highlight:#d4e4da;--color-primary-soft:#eaf2ec;--color-accent:#a05c6a;--color-accent-soft:#f0e4e7;--color-warm:#c17d3b;--color-warm-soft:#f5ead8;--color-info:#4a7a96;--color-info-soft:#ddeef4;--radius-sm:0.375rem;--radius-md:0.5rem;--radius-lg:0.75rem;--radius-xl:1rem;--radius-2xl:1.5rem;--radius-full:9999px;--transition-interactive:180ms cubic-bezier(0.16,1,0.3,1);--shadow-sm:0 1px 3px rgba(42,36,25,0.07);--shadow-md:0 4px 12px rgba(42,36,25,0.09);--shadow-lg:0 12px 32px rgba(42,36,25,0.12);--content-narrow:640px;--content-default:960px;--content-wide:1200px;--header-h:64px}
+    [data-theme="dark"]{--color-bg:#1a1814;--color-surface:#1f1d19;--color-surface-2:#23211d;--color-surface-offset:#272420;--color-surface-offset-2:#2b2925;--color-surface-dynamic:#302d29;--color-divider:#3a3731;--color-border:#454039;--color-text:#d4cfc6;--color-text-muted:#8a8479;--color-text-faint:#5c5851;--color-text-inverse:#1a1814;--color-primary:#6da07e;--color-primary-hover:#52896a;--color-primary-active:#3e6e53;--color-primary-highlight:#2a3d31;--color-primary-soft:#1e2e23;--color-accent:#c77f8d;--color-accent-soft:#3d252b;--color-warm:#d99653;--color-warm-soft:#3a2a15;--color-info:#68a0b8;--color-info-soft:#1d2e38;--shadow-sm:0 1px 3px rgba(0,0,0,0.25);--shadow-md:0 4px 12px rgba(0,0,0,0.35);--shadow-lg:0 12px 32px rgba(0,0,0,0.45)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + var(--space-6));-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;hanging-punctuation:first last}
+    body{min-height:100dvh;line-height:1.65;font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background-color:var(--color-bg);transition:background-color 0.3s ease,color 0.3s ease}
+    img,picture{display:block;max-width:100%;height:auto}
+    ul[role="list"],ol[role="list"]{list-style:none}
+    input,button,select{font:inherit;color:inherit}
+    h1,h2,h3,h4,h5,h6{text-wrap:balance;line-height:1.2}
+    p,li,figcaption{text-wrap:pretty;max-width:72ch}
+    :focus-visible{outline:2px solid var(--color-primary);outline-offset:3px;border-radius:var(--radius-sm)}
+    button{cursor:pointer;background:none;border:none}
+    a,button{transition:color var(--transition-interactive),background var(--transition-interactive),box-shadow var(--transition-interactive)}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+    .skip-link{position:absolute;left:var(--space-4);top:var(--space-4);background:var(--color-primary);color:#fff;padding:var(--space-2) var(--space-4);border-radius:var(--radius-md);font-size:var(--text-sm);font-weight:600;text-decoration:none;z-index:200;transform:translateY(-120%);transition:transform 0.2s}
+    .skip-link:focus{transform:translateY(0)}
+    .site-header{position:sticky;top:0;z-index:50;height:var(--header-h);background:rgba(248,246,241,0.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--color-divider);transition:box-shadow var(--transition-interactive)}
+    [data-theme="dark"] .site-header{background:rgba(26,24,20,0.92)}
+    .site-header.scrolled{box-shadow:var(--shadow-sm)}
+    .header-inner{max-width:var(--content-wide);margin-inline:auto;padding-inline:var(--space-6);height:100%;display:flex;align-items:center;justify-content:space-between;gap:var(--space-4)}
+    .site-logo{display:flex;align-items:center;gap:var(--space-3);text-decoration:none;color:var(--color-text)}
+    .logo-text{font-family:var(--font-display);font-size:var(--text-base);font-weight:500;letter-spacing:-0.01em;line-height:1.2}
+    .logo-text span{display:block;font-size:var(--text-xs);color:var(--color-text-muted);font-family:var(--font-body);font-weight:400;letter-spacing:0}
+    .site-nav{display:flex;align-items:center;gap:var(--space-1)}
+    .site-nav a{font-size:var(--text-sm);color:var(--color-text-muted);text-decoration:none;padding:var(--space-2) var(--space-3);border-radius:var(--radius-md);white-space:nowrap}
+    .site-nav a:hover{color:var(--color-text);background:var(--color-surface-offset)}
+    .header-actions{display:flex;align-items:center;gap:var(--space-2)}
+    .theme-toggle{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-full);color:var(--color-text-muted)}
+    .theme-toggle:hover{background:var(--color-surface-offset);color:var(--color-text)}
+    .mobile-menu-btn{display:none;width:40px;height:40px;align-items:center;justify-content:center;border-radius:var(--radius-md);color:var(--color-text-muted)}
+    .mobile-menu-btn:hover{background:var(--color-surface-offset)}
+    .mobile-nav{display:none;position:fixed;top:var(--header-h);left:0;right:0;background:var(--color-surface);border-bottom:1px solid var(--color-divider);padding:var(--space-4) var(--space-6);z-index:49;flex-direction:column;gap:var(--space-1)}
+    .mobile-nav.open{display:flex}
+    .mobile-nav a{font-size:var(--text-base);color:var(--color-text-muted);text-decoration:none;padding:var(--space-3) var(--space-4);border-radius:var(--radius-md)}
+    .mobile-nav a:hover{color:var(--color-text);background:var(--color-surface-offset)}
+    @media(max-width:768px){.site-nav{display:none}.mobile-menu-btn{display:flex}}
+    .container{max-width:var(--content-default);margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8))}
+    .container--wide{max-width:var(--content-wide);margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8))}
+    .container--narrow{max-width:var(--content-narrow);margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8))}
+    section{padding-block:clamp(var(--space-12),8vw,var(--space-24))}
+    section:nth-child(even){background:var(--color-surface)}
+    .hero{min-height:80vh;display:grid;place-items:center;padding-block:clamp(var(--space-16),10vw,var(--space-32));background:var(--color-bg);position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 30% 40%,rgba(74,124,89,0.1),transparent 70%),radial-gradient(ellipse 60% 50% at 80% 70%,rgba(160,92,106,0.07),transparent 70%);pointer-events:none}
+    .hero-inner{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:clamp(var(--space-8),5vw,var(--space-16));align-items:center;max-width:var(--content-wide);margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8))}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-primary);background:var(--color-primary-soft);padding:var(--space-2) var(--space-4);border-radius:var(--radius-full);margin-bottom:var(--space-6)}
+    .hero h1{font-family:var(--font-display);font-size:var(--text-2xl);font-weight:400;color:var(--color-text);margin-bottom:var(--space-6);line-height:1.1}
+    .hero h1 em{font-style:italic;color:var(--color-primary)}
+    .hero-lead{font-size:var(--text-lg);color:var(--color-text-muted);line-height:1.6;margin-bottom:var(--space-8);max-width:52ch}
+    .hero-cta{display:flex;flex-wrap:wrap;gap:var(--space-3)}
+    .btn-primary{display:inline-flex;align-items:center;gap:var(--space-2);background:var(--color-primary);color:#fff;text-decoration:none;padding:var(--space-3) var(--space-6);border-radius:var(--radius-full);font-size:var(--text-sm);font-weight:600;box-shadow:var(--shadow-sm)}
+    .btn-primary:hover{background:var(--color-primary-hover);box-shadow:var(--shadow-md)}
+    .btn-secondary{display:inline-flex;align-items:center;gap:var(--space-2);background:transparent;color:var(--color-text-muted);text-decoration:none;padding:var(--space-3) var(--space-6);border-radius:var(--radius-full);font-size:var(--text-sm);font-weight:500;border:1px solid var(--color-border)}
+    .btn-secondary:hover{color:var(--color-text);background:var(--color-surface-offset)}
+    .hero-image-wrap img{width:100%;max-width:480px;aspect-ratio:1;border-radius:var(--radius-2xl);object-fit:cover;box-shadow:var(--shadow-lg);margin-inline:auto}
+    @media(max-width:768px){.hero-inner{grid-template-columns:1fr;text-align:center}.hero-content{order:2}.hero-image-wrap{order:1}.hero-eyebrow,.hero-cta{justify-content:center}.hero-lead{margin-inline:auto}}
+    .toc-strip{background:var(--color-primary);padding-block:clamp(var(--space-8),4vw,var(--space-12))}
+    .toc-strip .container{color:#fff}
+    .toc-title{font-family:var(--font-display);font-size:var(--text-xl);font-weight:400;margin-bottom:var(--space-6);opacity:0.95}
+    .toc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(180px,100%),1fr));gap:var(--space-3)}
+    .toc-item{display:flex;align-items:center;gap:var(--space-3);background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);border-radius:var(--radius-lg);padding:var(--space-3) var(--space-4);text-decoration:none;color:#fff;font-size:var(--text-sm);font-weight:500;transition:background var(--transition-interactive)}
+    .toc-item:hover{background:rgba(255,255,255,0.22)}
+    .toc-num{width:24px;height:24px;flex-shrink:0;background:rgba(255,255,255,0.2);border-radius:var(--radius-full);font-size:var(--text-xs);font-weight:700;display:flex;align-items:center;justify-content:center}
+    .section-header{margin-bottom:clamp(var(--space-8),4vw,var(--space-16))}
+    .section-tag{display:inline-block;font-size:var(--text-xs);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-primary);margin-bottom:var(--space-3)}
+    .section-header h2{font-family:var(--font-display);font-size:var(--text-xl);font-weight:400;color:var(--color-text);margin-bottom:var(--space-4)}
+    .section-header p{font-size:var(--text-base);color:var(--color-text-muted);max-width:60ch;line-height:1.7}
+    .timeline{position:relative}
+    .timeline-line{position:absolute;left:23px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--color-primary),var(--color-primary-highlight))}
+    .timeline-item{display:grid;grid-template-columns:48px 1fr;gap:var(--space-5);padding-bottom:var(--space-10);position:relative}
+    .timeline-item:last-child{padding-bottom:0}
+    .timeline-dot{width:48px;height:48px;flex-shrink:0;background:var(--color-primary);color:#fff;border-radius:var(--radius-full);display:flex;align-items:center;justify-content:center;font-size:var(--text-sm);font-weight:700;font-family:var(--font-display);box-shadow:0 0 0 4px var(--color-bg),0 0 0 6px var(--color-primary-highlight);position:relative;z-index:1}
+    .timeline-body{padding-top:var(--space-2)}
+    .timeline-body h3{font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--color-text);margin-bottom:var(--space-2)}
+    .timeline-body p{color:var(--color-text-muted);line-height:1.7;margin-bottom:var(--space-3)}
+    .timeline-body ul{list-style:none;display:flex;flex-direction:column;gap:var(--space-2)}
+    .timeline-body li{display:flex;align-items:flex-start;gap:var(--space-3);font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6}
+    .timeline-body li::before{content:'→';color:var(--color-primary);flex-shrink:0;margin-top:2px}
+    .team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:var(--space-4)}
+    .team-card{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);transition:box-shadow var(--transition-interactive),transform var(--transition-interactive)}
+    .team-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+    .team-icon{width:48px;height:48px;background:var(--color-primary-soft);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;margin-bottom:var(--space-4);color:var(--color-primary)}
+    .team-card h3{font-family:var(--font-display);font-size:var(--text-base);font-weight:500;margin-bottom:var(--space-1);color:var(--color-text)}
+    .team-card .visit-freq{font-size:var(--text-xs);color:var(--color-primary);font-weight:600;margin-bottom:var(--space-3);letter-spacing:0.04em;text-transform:uppercase}
+    .team-card p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6}
+    .med-section{background:var(--color-surface)}
+    .med-intro-row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(var(--space-8),5vw,var(--space-16));align-items:center;margin-bottom:clamp(var(--space-10),6vw,var(--space-16))}
+    .med-intro-row img{width:100%;max-width:400px;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);margin-inline:auto}
+    @media(max-width:640px){.med-intro-row{grid-template-columns:1fr}}
+    .myth-callout{background:var(--color-warm-soft);border:1px solid var(--color-warm);border-radius:var(--radius-xl);padding:var(--space-6) var(--space-8);margin-bottom:var(--space-8)}
+    .myth-callout h3{font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--color-warm);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-3)}
+    .myth-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4)}
+    .myth-box{padding:var(--space-4);border-radius:var(--radius-lg)}
+    .myth-box.myth{background:rgba(160,92,106,0.1)}
+    .myth-box.fact{background:rgba(74,124,89,0.1)}
+    .myth-box strong{display:block;font-size:var(--text-xs);font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:var(--space-2)}
+    .myth-box.myth strong{color:var(--color-accent)}
+    .myth-box.fact strong{color:var(--color-primary)}
+    .myth-box p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6}
+    @media(max-width:640px){.myth-row{grid-template-columns:1fr}}
+    .med-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:var(--space-4)}
+    .med-card{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-xl);overflow:hidden}
+    .med-card-header{padding:var(--space-5) var(--space-6);display:flex;align-items:flex-start;gap:var(--space-3)}
+    .med-badge{font-size:var(--text-xs);font-weight:700;letter-spacing:0.06em;text-transform:uppercase;background:var(--color-primary-soft);color:var(--color-primary);padding:var(--space-1) var(--space-3);border-radius:var(--radius-full);white-space:nowrap;flex-shrink:0}
+    .med-card-header h3{font-family:var(--font-display);font-size:var(--text-base);font-weight:500;color:var(--color-text);line-height:1.3}
+    .med-card-header .brand{font-size:var(--text-xs);color:var(--color-text-muted);margin-top:2px}
+    .med-card-body{padding:0 var(--space-6) var(--space-6)}
+    .med-purpose{font-size:var(--text-sm);font-weight:600;color:var(--color-primary);margin-bottom:var(--space-2)}
+    .med-card-body p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.65;margin-bottom:var(--space-3)}
+    .med-warn{background:var(--color-accent-soft);border-radius:var(--radius-md);padding:var(--space-3);font-size:var(--text-xs);color:var(--color-accent);line-height:1.6}
+    .med-warn strong{font-weight:600}
+    .stages-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr));gap:var(--space-4)}
+    .stage-card{border-radius:var(--radius-xl);overflow:hidden;border:1px solid var(--color-border)}
+    .stage-header{padding:var(--space-5) var(--space-6);background:var(--color-primary-soft)}
+    .stage-header.weeks{background:var(--color-info-soft)}
+    .stage-header.days{background:var(--color-warm-soft)}
+    .stage-header.hours{background:var(--color-accent-soft)}
+    .stage-label{font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-text-muted);margin-bottom:var(--space-1)}
+    .stage-header h3{font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--color-text)}
+    .stage-body{padding:var(--space-5) var(--space-6);background:var(--color-surface-2)}
+    .stage-body ul{list-style:none;display:flex;flex-direction:column;gap:var(--space-2)}
+    .stage-body li{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6;display:flex;align-items:flex-start;gap:var(--space-3)}
+    .stage-body li::before{content:'·';color:var(--color-primary);font-weight:700;font-size:1.2em;flex-shrink:0;margin-top:-1px}
+    .stage-guidance{margin-top:var(--space-4);padding:var(--space-3);background:var(--color-surface-offset);border-radius:var(--radius-md);font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.6;border-left:3px solid var(--color-primary)}
+    .stage-guidance strong{color:var(--color-primary)}
+    .hearing-note{background:var(--color-primary-soft);border:1px solid var(--color-primary-highlight);border-radius:var(--radius-xl);padding:var(--space-6);text-align:center;margin-top:var(--space-8)}
+    .hearing-note h3{font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--color-primary);margin-bottom:var(--space-3)}
+    .hearing-note p{font-size:var(--text-base);color:var(--color-text-muted);max-width:55ch;margin-inline:auto}
+    .after-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr));gap:var(--space-4)}
+    .after-step{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6)}
+    .step-num{font-family:var(--font-display);font-size:var(--text-2xl);font-weight:700;color:var(--color-primary-highlight);line-height:1;margin-bottom:var(--space-3)}
+    .after-step h3{font-family:var(--font-display);font-size:var(--text-base);font-weight:500;color:var(--color-text);margin-bottom:var(--space-2)}
+    .after-step p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.65}
+    .do-not-call{background:var(--color-info-soft);border:1px solid var(--color-info);border-radius:var(--radius-xl);padding:var(--space-5) var(--space-6);display:flex;align-items:flex-start;gap:var(--space-4);margin-top:var(--space-6)}
+    .do-not-call svg{flex-shrink:0;margin-top:2px}
+    .do-not-call strong{color:var(--color-info);font-size:var(--text-base);display:block;margin-bottom:var(--space-1)}
+    .do-not-call p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6}
+    .bereavement-row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(var(--space-8),5vw,var(--space-16));align-items:start}
+    @media(max-width:640px){.bereavement-row{grid-template-columns:1fr}}
+    .bereavement-items{display:flex;flex-direction:column;gap:var(--space-4)}
+    .bereavement-item{display:flex;align-items:flex-start;gap:var(--space-4);background:var(--color-surface-2);border-radius:var(--radius-xl);padding:var(--space-5) var(--space-6);border:1px solid var(--color-border)}
+    .bereavement-icon{width:40px;height:40px;flex-shrink:0;background:var(--color-primary-soft);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;color:var(--color-primary)}
+    .bereavement-item h4{font-family:var(--font-display);font-size:var(--text-base);font-weight:500;margin-bottom:var(--space-1)}
+    .bereavement-item p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6}
+    .medicare-note{background:var(--color-primary-soft);border:1px solid var(--color-primary-highlight);border-radius:var(--radius-xl);padding:var(--space-6) var(--space-8)}
+    .medicare-note h3{font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--color-primary);margin-bottom:var(--space-4)}
+    .medicare-note ul{list-style:none;display:flex;flex-direction:column;gap:var(--space-2)}
+    .medicare-note li{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6;display:flex;align-items:flex-start;gap:var(--space-3)}
+    .medicare-note li::before{content:'✓';color:var(--color-primary);font-weight:700;flex-shrink:0}
+    .comfort-tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:var(--space-4)}
+    .comfort-tip{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6)}
+    .comfort-tip .icon{font-size:1.75rem;margin-bottom:var(--space-3);display:block}
+    .comfort-tip h4{font-family:var(--font-display);font-size:var(--text-base);font-weight:500;margin-bottom:var(--space-2)}
+    .comfort-tip p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.65}
+    .faq-list{display:flex;flex-direction:column;gap:var(--space-2)}
+    .faq-item{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-xl);overflow:hidden}
+    .faq-q{width:100%;text-align:left;padding:var(--space-5) var(--space-6);display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);font-family:var(--font-display);font-size:var(--text-base);font-weight:500;color:var(--color-text);cursor:pointer;border-radius:var(--radius-xl)}
+    .faq-q:hover{background:var(--color-surface-offset)}
+    .faq-q svg{flex-shrink:0;transition:transform 0.3s ease}
+    .faq-item.open .faq-q svg{transform:rotate(180deg)}
+    .faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s cubic-bezier(0.16,1,0.3,1)}
+    .faq-item.open .faq-a{max-height:500px}
+    .faq-a-inner{padding:0 var(--space-6) var(--space-5);font-size:var(--text-base);color:var(--color-text-muted);line-height:1.7}
+    .site-footer{background:var(--color-surface-offset-2);border-top:1px solid var(--color-divider);padding-block:clamp(var(--space-8),5vw,var(--space-16))}
+    .footer-inner{max-width:var(--content-wide);margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8));display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:clamp(var(--space-8),5vw,var(--space-16))}
+    .footer-brand .site-logo{margin-bottom:var(--space-4)}
+    .footer-brand p{font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.7;max-width:38ch}
+    .footer-col h4{font-family:var(--font-display);font-size:var(--text-sm);font-weight:600;color:var(--color-text);margin-bottom:var(--space-4);letter-spacing:0.03em}
+    .footer-col ul{list-style:none;display:flex;flex-direction:column;gap:var(--space-2)}
+    .footer-col li a{font-size:var(--text-sm);color:var(--color-text-muted);text-decoration:none}
+    .footer-col li a:hover{color:var(--color-text)}
+    .footer-bottom{max-width:var(--content-wide);margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8));padding-top:var(--space-6);margin-top:var(--space-8);border-top:1px solid var(--color-divider);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--space-4)}
+    .footer-bottom p{font-size:var(--text-xs);color:var(--color-text-faint);max-width:none}
+    .disclaimer{font-size:var(--text-xs);color:var(--color-text-faint);background:var(--color-surface-offset);border-radius:var(--radius-md);padding:var(--space-3) var(--space-4)}
+    @media(max-width:768px){.footer-inner{grid-template-columns:1fr}}
+    .reading-progress{position:fixed;top:var(--header-h);left:0;right:0;height:3px;z-index:49;background:var(--color-primary);transform-origin:left;transform:scaleX(0);transition:transform 0.1s linear}
+    table th,table td{vertical-align:top}
+    @media(max-width:768px){table{font-size:var(--text-xs)}}
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+  <header class="site-header" id="siteHeader" role="banner">
+    <div class="header-inner">
+      <a href="#" class="site-logo" aria-label="Hospice Family Guide home">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><circle cx="18" cy="18" r="17" stroke="#4a7c59" stroke-width="2"/><path d="M18 10 C13 10 10 13.5 10 17 C10 22 18 27 18 27 C18 27 26 22 26 17 C26 13.5 23 10 18 10Z" fill="#4a7c59" fill-opacity="0.2" stroke="#4a7c59" stroke-width="1.5" stroke-linejoin="round"/><path d="M15 18 L17.5 20.5 L21.5 15.5" stroke="#4a7c59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="logo-text">Hospice Family Guide<span>A trusted resource for families</span></div>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#the-process">The Process</a>
+        <a href="#the-team">Care Team</a>
+        <a href="#medications">Medications</a>
+        <a href="#what-to-expect">Signs of Change</a>
+        <a href="#after">After</a>
+        <a href="#questions">Questions</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="mobile-menu-btn" aria-label="Open navigation" aria-expanded="false" id="menuBtn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#the-process">The Process</a>
+    <a href="#the-team">Care Team</a>
+    <a href="#medications">Medications</a>
+    <a href="#what-to-expect">Signs of Change</a>
+    <a href="#after">After</a>
+    <a href="#questions">Common Questions</a>
+  </nav>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-eyebrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35z"/></svg>For Families in Hospice Care</div>
+          <h1 id="hero-heading">You don't have to figure this out <em>alone.</em></h1>
+          <p class="hero-lead">This guide explains what hospice care looks like step by step — the team that will visit, the medications and what they do, how the body changes, and what to do when the time comes. Everything here is fact-based, written with care for where you are right now.</p>
+          <div class="hero-cta">
+            <a href="#the-process" class="btn-primary">Start from the Beginning <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <a href="#medications" class="btn-secondary">Go to Medications</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/7cba1b77-7bba-409e-a5d9-cefc10f6745c.png" alt="Illustration of three pairs of hands gently holding one another, representing family comfort and support" width="480" height="480" loading="eager">
+        </div>
+      </div>
+    </section>
+    <div class="toc-strip" role="navigation" aria-label="Page sections">
+      <div class="container">
+        <p class="toc-title">What's covered in this guide</p>
+        <div class="toc-grid">
+          <a href="#the-process" class="toc-item"><span class="toc-num">1</span> The Process</a>
+          <a href="#the-team" class="toc-item"><span class="toc-num">2</span> Who to Expect</a>
+          <a href="#medications" class="toc-item"><span class="toc-num">3</span> Medications</a>
+          <a href="#what-to-expect" class="toc-item"><span class="toc-num">4</span> Signs of Change</a>
+          <a href="#comfort" class="toc-item"><span class="toc-num">5</span> Comfort Tips</a>
+          <a href="#after" class="toc-item"><span class="toc-num">6</span> After Death</a>
+          <a href="#bereavement" class="toc-item"><span class="toc-num">7</span> Bereavement</a>
+          <a href="#questions" class="toc-item"><span class="toc-num">8</span> Questions</a>
+        </div>
+      </div>
+    </div>
+    <section id="the-process" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 1</span><h2 id="process-heading">What the Hospice Process Looks Like</h2><p>Hospice care has a predictable rhythm. Here's what typically unfolds after enrollment — from the first visit to ongoing care.</p></div>
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+          <div class="timeline-item"><div class="timeline-dot" aria-hidden="true">1</div><div class="timeline-body"><h3>The First Days (Days 1–3)</h3><p>Hospice care begins with a flurry of activity as the team establishes a personalized care plan and gets your home set up for comfort.</p><ul><li>A registered nurse visits to assess symptoms, pain, and immediate needs</li><li>Medical equipment is ordered and delivered: hospital bed, bedside commode, oxygen if needed</li><li>Personal hygiene supplies arrive (incontinence pads, bathing wipes, skin cleansers)</li><li>Medications are ordered, including a "comfort kit" for use if symptoms change quickly</li><li>An individualized care plan is developed with input from you, the patient, and the hospice physician</li><li>Family caregivers are trained on how to provide care and administer medications safely</li></ul></div></div>
+          <div class="timeline-item"><div class="timeline-dot" aria-hidden="true">2</div><div class="timeline-body"><h3>Routine Home Care (Ongoing)</h3><p>After setup, care settles into a predictable pattern with regular visits from different team members.</p><ul><li>A hospice aide visits approximately 3 times per week to help with bathing and personal hygiene</li><li>A registered nurse visits regularly — Medicare requires at least every 14 days, but often more frequent</li><li>A social worker visits early on to identify practical and emotional support needs</li><li>A chaplain or spiritual counselor visits if the family wishes</li><li>The hospice is available 24 hours/day, 7 days/week by phone for urgent questions</li></ul></div></div>
+          <div class="timeline-item"><div class="timeline-dot" aria-hidden="true">3</div><div class="timeline-body"><h3>Continuous Care (Crisis Support)</h3><p>If symptoms become difficult to manage at home, the hospice can increase their presence significantly — up to 24-hour-a-day nursing care during a medical crisis — so your loved one can remain home rather than going to the hospital.</p><ul><li>Available during periods of intense symptom management</li><li>Nurses or aides provide continuous in-home care until the crisis resolves</li><li>This level of support is temporary and transitions back to routine care</li></ul></div></div>
+          <div class="timeline-item"><div class="timeline-dot" aria-hidden="true">4</div><div class="timeline-body"><h3>Inpatient Care &amp; Respite</h3><p>Two special situations covered under the Medicare hospice benefit:</p><ul><li><strong>General Inpatient Care:</strong> Short-term admission to a facility when symptoms can't be managed at home</li><li><strong>Respite Care:</strong> Up to 5 consecutive days of inpatient care to give family caregivers a needed rest. Medicare covers most of this cost.</li></ul></div></div>
+          <div class="timeline-item"><div class="timeline-dot" aria-hidden="true">5</div><div class="timeline-body"><h3>Active Dying &amp; Final Days</h3><p>As death approaches, the hospice team increases their presence, prepares the family for what to expect, and offers constant support.</p><ul><li>More frequent nurse visits as condition changes</li><li>Guidance on physical signs of active dying</li><li>Emotional and spiritual support for the whole family</li><li>Help coordinating with funeral home after death occurs</li></ul></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="the-team" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 2</span><h2 id="team-heading">Who Will Come to Your Home</h2><p>Hospice care is provided by an interdisciplinary team — each person plays a distinct role. Here's who to expect, what they do, and how often they typically visit.</p></div>
+        <div class="team-grid">
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 7h-9M14 12H5M11 17H5M9 3H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9l-4-6Z"/><path d="M13 3v6h6"/></svg></div><h3>Hospice Physician / Medical Director</h3><p class="visit-freq">As needed · Oversees care</p><p>The hospice physician oversees the care plan, orders medications, and consults when the condition changes. A nurse practitioner may make house calls to assess eligibility and adjust medications as needed.</p></div>
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Registered Nurse (RN)</h3><p class="visit-freq">Weekly or more · Primary coordinator</p><p>The RN is the cornerstone of hospice care. They manage symptoms and medications, educate family caregivers, communicate with the physician, and guide the family as the end of life approaches.</p></div>
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg></div><h3>Hospice Aide (CNA)</h3><p class="visit-freq">~3x per week · Personal care</p><p>Aides help with bathing, dressing, grooming, repositioning, and personal care. They have the most daily contact and are trained to observe and report changes to the nursing team.</p></div>
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>Social Worker (MSW)</h3><p class="visit-freq">Shortly after enrollment · As needed</p><p>The social worker attends to emotional, social, and practical concerns. They help with advance directives, insurance navigation, community resources, and supporting the emotional landscape of caregiving.</p></div>
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"/><path d="M12 6v6l4 2"/></svg></div><h3>Chaplain / Spiritual Counselor</h3><p class="visit-freq">If desired by family</p><p>Chaplains provide spiritual care inclusive of all beliefs — or no belief at all. They help patients and families find meaning, peace, and comfort in their own way. Their role is to listen and accompany, never to impose.</p></div>
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div><h3>Volunteers</h3><p class="visit-freq">As arranged · Free service</p><p>Trained hospice volunteers can sit with the patient, run errands, give caregivers a break, or simply provide companionship. This service is free and available through any Medicare-certified hospice.</p></div>
+          <div class="team-card"><div class="team-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div><h3>Bereavement Coordinator</h3><p class="visit-freq">Before &amp; up to 13 months after death</p><p>The bereavement coordinator begins supporting families even before death and continues for up to 13 months after. They provide grief counseling, support groups, and check-in calls. This is mandated by Medicare.</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="medications" class="med-section" aria-labelledby="meds-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 3</span><h2 id="meds-heading">The Medications: What They Do &amp; Why They Matter</h2><p>Hospice uses a specific set of comfort-focused medications to manage pain, anxiety, and other symptoms. Understanding what these medicines do — and what they don't do — helps you feel more prepared.</p></div>
+        <div class="med-intro-row">
+          <div>
+            <h3 style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;margin-bottom:var(--space-4)">The Comfort Kit</h3>
+            <p style="color:var(--color-text-muted);line-height:1.7;margin-bottom:var(--space-4)">Most hospice agencies provide a "comfort kit" — a small box of pre-filled medications kept in the patient's home. Caregivers store them securely and administer only when directed by a hospice nurse.</p>
+            <p style="color:var(--color-text-muted);line-height:1.7;margin-bottom:var(--space-4)">The six most commonly prescribed hospice medications are: morphine, lorazepam, haloperidol, acetaminophen, prochlorperazine, and atropine. Each is designed to address a specific symptom at end of life.</p>
+            <p style="color:var(--color-text-muted);line-height:1.7">The goal of every hospice medication is the same: <strong style="color:var(--color-text)">comfort, not cure.</strong></p>
+          </div>
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/c711cc5b-f6d6-497d-8ae0-d6358593b9ed.png" alt="Soft illustration of comfort medications on a wooden surface with lavender" width="400" height="400" loading="lazy">
+        </div>
+        <div class="myth-callout" role="note" aria-label="Important: Common myths about morphine">
+          <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Important: Common Myths About Morphine</h3>
+          <div class="myth-row">
+            <div class="myth-box myth"><strong>Myth</strong><p>Morphine speeds up death or causes the patient to stop breathing.</p></div>
+            <div class="myth-box fact"><strong>Fact</strong><p>There is no medical evidence that morphine hastens death when used at clinically appropriate doses. Morphine relieves breathlessness by easing the respiratory system — the disease causes breathing to stop, not the drug. Patients often die shortly after receiving morphine because the medication removes pain that was delaying a natural death, not because the drug caused it.</p></div>
+          </div>
+        </div>
+        <!-- Frequency & Risk Table -->
+        <div style="margin-bottom:clamp(var(--space-10),6vw,var(--space-16))">
+          <h3 style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;margin-bottom:var(--space-3);color:var(--color-text)">Dosing Frequency &amp; Risk at a Glance</h3>
+          <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-5);line-height:1.65">This table summarizes the typical dosing schedule, how doses change as death approaches, and the honest risk each medication carries. Doses are always adjusted by your hospice nurse based on the patient's weight, organ function, and current symptoms.</p>
+          <div style="overflow-x:auto;border-radius:var(--radius-xl);border:1px solid var(--color-border);box-shadow:var(--shadow-sm)">
+            <table style="width:100%;border-collapse:collapse;font-size:var(--text-sm);background:var(--color-surface-2)">
+              <thead>
+                <tr style="background:var(--color-primary);color:#fff">
+                  <th style="padding:var(--space-4) var(--space-5);text-align:left;font-weight:600;white-space:nowrap">Medication</th>
+                  <th style="padding:var(--space-4) var(--space-5);text-align:left;font-weight:600;white-space:nowrap">Typical Starting Dose</th>
+                  <th style="padding:var(--space-4) var(--space-5);text-align:left;font-weight:600;white-space:nowrap">How Often</th>
+                  <th style="padding:var(--space-4) var(--space-5);text-align:left;font-weight:600;white-space:nowrap">How It Escalates</th>
+                  <th style="padding:var(--space-4) var(--space-5);text-align:left;font-weight:600;white-space:nowrap">Key Risk</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom:1px solid var(--color-divider)">
+                  <td style="padding:var(--space-4) var(--space-5);font-weight:600;color:var(--color-text)">Morphine</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">2.5&ndash;10 mg oral or 2&ndash;10 mg IV/SC</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Every 3&ndash;4 hours; breakthrough doses as needed any time</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Safely increased by up to 50% every 24&ndash;48 hrs as symptoms demand. If 3+ breakthrough doses needed in 24 hrs, the baseline is increased. In the final 24&ndash;48 hrs, continuous infusions may replace pills.</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Respiratory depression is rare when titrated gradually. Risk is higher if given rapidly to an opioid-naive patient or combined with benzodiazepines. Clinical evidence consistently shows properly titrated morphine does not hasten death.</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--color-divider);background:var(--color-surface)">
+                  <td style="padding:var(--space-4) var(--space-5);font-weight:600;color:var(--color-text)">Lorazepam (Ativan)</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">0.5&ndash;1 mg oral or under the tongue</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Every 4&ndash;6 hours as needed; onset in 5&ndash;20 minutes</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">May increase to 1&ndash;2 mg every 4 hours in final days. Can transition to continuous IV/SC infusion. Infusion rates are not adjusted more often than every 4 hours.</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Sedation and reduced responsiveness are expected and intended. Combined with morphine, can cause deep sedation. In a frail patient in final hours, the patient may not wake after doses begin.</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--color-divider)">
+                  <td style="padding:var(--space-4) var(--space-5);font-weight:600;color:var(--color-text)">Haloperidol (Haldol)</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">0.5 mg oral or SC; up to 2 mg for acute episodes</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Every 4&ndash;6 hours; maximum 8 mg per 24 hours</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">For severe agitation, up to 3 doses every 2 hours until settled, then every 6&ndash;8 hours. Rarely escalated beyond this range.</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Must be avoided in Parkinson's disease. FDA Black Box Warning in elderly dementia patients: increased risk of death. Use the lowest effective dose only.</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--color-divider);background:var(--color-surface)">
+                  <td style="padding:var(--space-4) var(--space-5);font-weight:600;color:var(--color-text)">Acetaminophen</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">500&ndash;1,000 mg oral or rectal suppository</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Every 4&ndash;6 hours; max 4,000 mg/day (lower in liver disease)</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Dose does not typically escalate. Suppository form used when oral route is lost. Stable supportive role alongside opioids.</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Liver toxicity if daily limit exceeded. Dangerous interaction with warfarin (blood thinner) &mdash; can increase bleeding risk. Always disclose all medications to the hospice team.</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--color-divider)">
+                  <td style="padding:var(--space-4) var(--space-5);font-weight:600;color:var(--color-text)">Atropine (drops)</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">2&ndash;4 drops (1% solution) under the tongue</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Every 2&ndash;4 hours as needed for secretions</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Frequency can increase in the final hours as secretions worsen. Used only when the gurgling sound is present &mdash; not on a fixed schedule.</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Low systemic risk at oral drop doses. Can cause dry mouth or mild confusion at higher doses. Does not sedate the patient. Avoid in glaucoma.</td>
+                </tr>
+                <tr style="background:var(--color-surface)">
+                  <td style="padding:var(--space-4) var(--space-5);font-weight:600;color:var(--color-text)">Prochlorperazine / Ondansetron</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">5&ndash;10 mg oral or suppository; 4 mg (Zofran)</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Every 6&ndash;8 hours as needed for nausea</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Usually maintained at a stable dose. Suppository used when oral route is lost. Discontinued once the patient is no longer conscious.</td>
+                  <td style="padding:var(--space-4) var(--space-5);color:var(--color-text-muted)">Prochlorperazine can cause sedation and low blood pressure. Ondansetron can cause constipation. Neither carries significant life-threatening risk at standard doses.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Escalation callout -->
+        <div style="background:var(--color-info-soft);border:1px solid var(--color-info);border-radius:var(--radius-xl);padding:var(--space-6) var(--space-8);margin-bottom:clamp(var(--space-8),4vw,var(--space-12))">
+          <h3 style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--color-info);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-3)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            What "Dose Escalation" Looks Like in Real Life
+          </h3>
+          <p style="font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.7;margin-bottom:var(--space-4)">As the patient declines, you will likely see medications change in three predictable ways:</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(220px,100%),1fr));gap:var(--space-4)">
+            <div style="background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-4)">
+              <strong style="font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;color:var(--color-info);display:block;margin-bottom:var(--space-2)">Doses Get Larger</strong>
+              <p style="font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6">Pain and breathlessness increase as disease progresses. Morphine doses are adjusted upward in response to symptoms, not on a fixed schedule. Nurses track breakthrough doses to know when to raise the baseline. If 3 or more extra doses are needed in a single day, that signals it is time to increase.</p>
+            </div>
+            <div style="background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-4)">
+              <strong style="font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;color:var(--color-info);display:block;margin-bottom:var(--space-2)">Routes Change</strong>
+              <p style="font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6">When swallowing becomes impossible, medications shift from pills to liquids placed under the tongue, skin patches, or continuous subcutaneous infusions via a small pump. This is expected and not a crisis &mdash; the hospice team transitions this smoothly and trains caregivers on what to do.</p>
+            </div>
+            <div style="background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-4)">
+              <strong style="font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.06em;color:var(--color-info);display:block;margin-bottom:var(--space-2)">More Sedation</strong>
+              <p style="font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.6">In the final 24&ndash;48 hours, patients often become deeply and continuously sedated. This is a combined effect of the disease itself, the natural dying process, and comfort medications working together. The sedation is purposeful. When this begins, call family members to gather.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="med-cards">
+          <div class="med-card"><div class="med-card-header"><div><span class="med-badge">Pain &middot; Breathing</span><h3>Morphine</h3><p class="brand">Brand names: Roxanol, MS Contin, MSIR, Kadian</p></div></div><div class="med-card-body"><p class="med-purpose">Treats: Moderate to severe pain and shortness of breath (dyspnea)</p><p>Morphine is the most commonly used hospice medication. Starting doses are typically 2.5&ndash;10 mg every 3&ndash;4 hours, with identical "breakthrough" doses available at any time between scheduled doses. If three or more breakthrough doses are needed in 24 hours, the nurse increases the baseline &mdash; usually by 25&ndash;50%. Doses can be safely escalated every 24&ndash;48 hours until symptoms are controlled. In the final days, oral liquid or a continuous infusion replaces tablets when swallowing becomes difficult.</p><div class="med-warn"><strong>Family note:</strong> Increased sedation after a dose change is expected. Large, rapid escalations carry more risk than the slow titration used in home hospice. Clinical studies consistently show that opioids titrated to comfort do not shorten life. Call the nurse with any concerns about breathing changes &mdash; they can assess by phone or visit same day.</div></div></div>
+          <div class="med-card"><div class="med-card-header"><div><span class="med-badge">Anxiety &middot; Agitation</span><h3>Lorazepam</h3><p class="brand">Brand names: Ativan, Lorazepam Intensol</p></div></div><div class="med-card-body"><p class="med-purpose">Treats: Anxiety, agitation, shortness of breath, insomnia</p><p>Lorazepam works within 5&ndash;20 minutes and lasts 6&ndash;8 hours. Starting doses are 0.5&ndash;1 mg every 4&ndash;6 hours as needed. In the final days, doses often increase to 1&ndash;2 mg every 4 hours as agitation intensifies. It can be given as a liquid under the tongue when pills are no longer possible. When combined with morphine, both medications work together &mdash; this is intentional and clinically appropriate in end-of-life care.</p><div class="med-warn"><strong>Family note:</strong> The combination of lorazepam and morphine will significantly increase sedation. In a patient who is actively dying, they may not regain consciousness after this combination begins &mdash; this reflects the disease progressing, not medication harm. This is your signal to call family to gather. Always call the hospice nurse before giving extra doses beyond the schedule.</div></div></div>
+          <div class="med-card"><div class="med-card-header"><div><span class="med-badge">Agitation &middot; Nausea</span><h3>Haloperidol</h3><p class="brand">Brand name: Haldol</p></div></div><div class="med-card-body"><p class="med-purpose">Treats: Terminal agitation, delirium, nausea</p><p>Hospice doses start low &mdash; 0.5 mg every 4&ndash;6 hours &mdash; and are rarely escalated above 8 mg per day. For acute agitation, up to 3 doses may be given every 2 hours until settled, then reduced to a scheduled maintenance dose. Haloperidol reduces distress, hallucinations, and combativeness without causing the same level of sedation as morphine or lorazepam. It does not speed up death.</p><div class="med-warn"><strong>Critical warning:</strong> Haloperidol carries an FDA Black Box Warning &mdash; it must <strong>not</strong> be used in patients with Parkinson's disease (risk of severe muscle crisis) and increases risk of death in elderly patients with dementia. Always inform the hospice team of all diagnoses before this medication is given.</div></div></div>
+          <div class="med-card"><div class="med-card-header"><div><span class="med-badge">Pain &middot; Fever</span><h3>Acetaminophen</h3><p class="brand">Brand name: Tylenol (tablet or suppository)</p></div></div><div class="med-card-body"><p class="med-purpose">Treats: Mild to moderate pain, fever</p><p>Typically 500&ndash;1,000 mg every 4&ndash;6 hours, with a strict daily maximum of 4,000 mg (lower in patients with liver disease). Used as a stable, supportive medication alongside opioids. Transitions to a rectal suppository when swallowing becomes impossible &mdash; same dose, same schedule. Unlike opioids, the dose rarely needs to increase.</p><div class="med-warn"><strong>Family note:</strong> Never combine with over-the-counter cold or flu medications, which often already contain acetaminophen. If the patient takes warfarin (Coumadin), notify the hospice team immediately &mdash; the interaction can cause dangerous bleeding even at normal doses.</div></div></div>
+          <div class="med-card"><div class="med-card-header"><div><span class="med-badge">Secretions</span><h3>Atropine / Glycopyrrolate</h3><p class="brand">Available as oral drops or injection</p></div></div><div class="med-card-body"><p class="med-purpose">Treats: Excess secretions ("death rattle")</p><p>Atropine 1% eye drops &mdash; given orally, 2&ndash;4 drops under the tongue &mdash; are administered every 2&ndash;4 hours as needed. Glycopyrrolate is preferred in some patients because it does not cross into the brain, avoiding confusion as a side effect. Neither is given on a fixed schedule &mdash; only when the gurgling sound is present and worsening. This medication does not sedate and carries minimal life-impact risk at these doses.</p><div class="med-warn"><strong>For families:</strong> The gurgling sound is caused by air moving through relaxed throat muscles &mdash; it is almost never distressing to the patient. Repositioning the head to the side reduces it significantly. Avoid suctioning unless specifically instructed &mdash; it can cause distress. Call the nurse if you find it hard to manage emotionally.</div></div></div>
+          <div class="med-card"><div class="med-card-header"><div><span class="med-badge">Nausea</span><h3>Prochlorperazine / Ondansetron</h3><p class="brand">Brand names: Compazine, Zofran</p></div></div><div class="med-card-body"><p class="med-purpose">Treats: Nausea and vomiting</p><p>Prochlorperazine (Compazine) is given at 5&ndash;10 mg every 6 hours as needed, available as a suppository when swallowing is not possible. Ondansetron (Zofran) is given at 4 mg every 8 hours. Both remain at stable doses &mdash; unlike opioids, nausea medications rarely need escalation. They are typically stopped once the patient is no longer conscious and nausea is no longer a concern.</p><div class="med-warn"><strong>Family note:</strong> Nausea is common in hospice and very treatable. Do not let a loved one suffer through nausea without calling the nurse. If one medication doesn't work well, another option can be tried quickly. Both are safe at prescribed doses.</div></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="what-to-expect" aria-labelledby="signs-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 4</span><h2 id="signs-heading">Signs of Change: What the Body Does</h2><p>As the body prepares for death, there is a predictable sequence of changes. These are natural — not emergencies. The hospice nurse will help you understand and respond to each phase.</p></div>
+        <div class="stages-grid">
+          <div class="stage-card"><div class="stage-header weeks"><p class="stage-label">Weeks to Months Before</p><h3>Early Decline</h3></div><div class="stage-body"><ul><li>Decreased appetite and thirst (normal and expected)</li><li>Significant weight loss and muscle weakness</li><li>Increased sleepiness, sleeping more hours each day</li><li>Withdrawal from activities and conversation</li><li>Ambivalence about surroundings</li><li>Emotional introspection or reviewing life memories</li></ul><p class="stage-guidance"><strong>What to do:</strong> Offer small amounts of favorite foods. Respect the need for rest. Be present without pressure to converse. Don't force eating or drinking — this is the body's natural process, not starvation.</p></div></div>
+          <div class="stage-card"><div class="stage-header days"><p class="stage-label">Days to a Week Before</p><h3>Deeper Withdrawal</h3></div><div class="stage-body"><ul><li>Stops eating entirely; may stop drinking</li><li>Increased restlessness or agitation (call hospice)</li><li>Confusion about time, place, or people</li><li>Hallucinations or visions of deceased relatives — very common, not alarming</li><li>Congestion and changes in breathing pattern</li><li>Urine output decreases; may become dark</li></ul><p class="stage-guidance"><strong>What to do:</strong> Speak softly and use their name. Agitation can be treated — call the hospice nurse. Don't argue with visions; respond with calm reassurance. Keep the mouth moist with a damp swab.</p></div></div>
+          <div class="stage-card"><div class="stage-header hours"><p class="stage-label">Hours Before</p><h3>Active Dying</h3></div><div class="stage-body"><ul><li>Unresponsive or unable to be awakened</li><li>Irregular or "Cheyne-Stokes" breathing (cycles of fast/slow breathing with pauses)</li><li>Cooling, pale skin on hands, feet, and knees</li><li>Mottling: blotchy bluish-purple coloring begins on knees and legs</li><li>Blood pressure drops significantly; weak or absent pulse</li><li>Gurgling sound from throat ("death rattle")</li><li>Eyes may be partially open</li></ul><p class="stage-guidance"><strong>What to do:</strong> Call immediate family. Speak softly — hearing is often the last sense to go. Hold their hand. Say what you need to say. Call the hospice nurse — they can come or guide you by phone.</p></div></div>
+        </div>
+        <div class="hearing-note" role="note"><h3>💬 They may still hear you.</h3><p>Research and clinical experience consistently suggest that hearing is the last sense to fade, even when the patient is unresponsive. It is safe — and encouraged — to speak to your loved one, hold their hand, play favorite music, and say what's in your heart during the final hours.</p></div>
+      </div>
+    </section>
+    <section id="comfort" aria-labelledby="comfort-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 5</span><h2 id="comfort-heading">Comfort Tips for Family Caregivers</h2><p>Small acts of care make a significant difference. Here are practical ways to keep your loved one comfortable — and yourself sustained through this time.</p></div>
+        <div class="comfort-tips-grid">
+          <div class="comfort-tip"><span class="icon" aria-hidden="true">🌿</span><h4>Keep the Room Calm</h4><p>Dim lights, soft music or silence, familiar scents, and a comfortable room temperature. Minimize loud conversations, even when the patient appears unconscious.</p></div>
+          <div class="comfort-tip"><span class="icon" aria-hidden="true">💧</span><h4>Mouth Care</h4><p>Use small damp sponge swabs to moisten lips and gums every 1–2 hours. This eases dry mouth discomfort even when swallowing is no longer possible. Lip balm helps as well.</p></div>
+          <div class="comfort-tip"><span class="icon" aria-hidden="true">🖐️</span><h4>Gentle Touch</h4><p>Holding a hand, lightly stroking an arm, or simply being physically present offers profound comfort. Touch communicates love even when words aren't possible.</p></div>
+          <div class="comfort-tip"><span class="icon" aria-hidden="true">🔄</span><h4>Repositioning</h4><p>Gently reposition the patient every 2 hours when possible to prevent skin breakdown and discomfort. The hospice aide can train you on how to do this safely.</p></div>
+          <div class="comfort-tip"><span class="icon" aria-hidden="true">🛏️</span><h4>Hospital Bed Setup</h4><p>Elevate the head of the bed slightly (15–30°) to ease breathing. A padded foam mattress overlay reduces pressure sores. Keep bedding clean and dry.</p></div>
+          <div class="comfort-tip"><span class="icon" aria-hidden="true">👨‍👩‍👧</span><h4>Take Care of Yourself</h4><p>Caregiver fatigue is real. Ask for help from other family members, use the hospice volunteer program to get breaks, and don't feel guilty for stepping away to eat, rest, or cry.</p></div>
+        </div>
+        <div style="margin-top:var(--space-8);padding:var(--space-6) var(--space-8);background:var(--color-surface-offset);border-radius:var(--radius-xl);border:1px solid var(--color-divider)">
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/069764bc-fde4-4c57-aabd-69ac195c5888.png" alt="Peaceful sunlit bedroom with a hospital bed surrounded by soft natural light and fresh flowers" width="960" height="280" style="width:100%;height:280px;object-fit:cover;border-radius:var(--radius-lg)" loading="lazy">
+          <p style="font-size:var(--text-sm);color:var(--color-text-muted);text-align:center;margin-top:var(--space-3)">A familiar, peaceful environment makes a meaningful difference in comfort.</p>
+        </div>
+      </div>
+    </section>
+    <section id="after" aria-labelledby="after-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 6</span><h2 id="after-heading">After Death: What Happens Next</h2><p>When your loved one passes, you won't be alone. The hospice team has guided many families through these moments. Here's what to expect immediately after death at home.</p></div>
+        <div class="do-not-call" role="note" aria-label="Important notice about calling 911">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a7a96" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <div><strong>Do NOT call 911 if your loved one passes at home in hospice.</strong><p>Calling 911 triggers emergency protocols including potential resuscitation attempts. Instead, call your hospice provider's 24/7 line. They will dispatch a nurse and guide you through everything. This is a planned, anticipated event — the hospice team is prepared for it.</p></div>
+        </div>
+        <div class="after-steps" style="margin-top:var(--space-8)">
+          <div class="after-step"><p class="step-num">01</p><h3>Call the Hospice Line</h3><p>Call the hospice provider's 24/7 phone number. A nurse will be dispatched to the home. You do not need to rush — take the time you need to be with your loved one.</p></div>
+          <div class="after-step"><p class="step-num">02</p><h3>Death is Pronounced</h3><p>A registered nurse, physician, or coroner must officially pronounce the death. The hospice nurse will complete paperwork certifying the time, place, and cause of death — beginning the process for the death certificate.</p></div>
+          <div class="after-step"><p class="step-num">03</p><h3>Take Your Time</h3><p>There is no requirement to immediately move the body. Most families spend time with their loved one saying goodbye and allowing other family members to gather. The hospice nurse will remain with you.</p></div>
+          <div class="after-step"><p class="step-num">04</p><h3>Contact the Funeral Home</h3><p>When you are ready, contact your selected funeral home to arrange for transportation. If you haven't pre-selected one, the hospice team can help. The funeral home coordinates directly with you.</p></div>
+          <div class="after-step"><p class="step-num">05</p><h3>Return Equipment &amp; Medications</h3><p>The hospice team will arrange to collect rented medical equipment and unused medications. Opioids must be safely disposed of. The nurse will walk you through this process.</p></div>
+          <div class="after-step"><p class="step-num">06</p><h3>Notify Family &amp; Begin Paperwork</h3><p>Call close family and friends. The death certificate (typically 1–2 weeks) is needed for insurance, financial accounts, and estate matters. The hospice social worker can help you navigate what's needed.</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="bereavement" aria-labelledby="bereavement-heading">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">Step 7</span><h2 id="bereavement-heading">Bereavement: The Care Continues</h2><p>Hospice care does not end when your loved one dies. Under the Medicare hospice benefit, your family is entitled to bereavement support for up to 13 months after the death — at no additional cost.</p></div>
+        <div class="bereavement-row">
+          <div class="bereavement-items">
+            <div class="bereavement-item"><div class="bereavement-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.41 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><h4>Phone Check-ins &amp; Cards</h4><p>98% of hospices send cards or letters at the time of death and on the anniversary. Regular check-in calls are typically offered at 2, 6, 9, and 12 months after the death.</p></div></div>
+            <div class="bereavement-item"><div class="bereavement-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div><h4>Grief Support Groups</h4><p>Many hospices offer in-person or virtual grief support groups where families connect with others who have been through similar experiences. Provided at no cost.</p></div></div>
+            <div class="bereavement-item"><div class="bereavement-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><h4>Individual Counseling</h4><p>72% of hospice programs offer individual counseling for bereaved family members. A bereavement counselor can be assigned to you for more intensive support if needed.</p></div></div>
+            <div class="bereavement-item"><div class="bereavement-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div><div><h4>Memorial Services</h4><p>Most hospices hold community memorial services, tree plantings, or veteran remembrances — meaningful moments of collective grief and celebration of life.</p></div></div>
+          </div>
+          <div class="medicare-note" role="complementary" aria-label="Medicare coverage information">
+            <h3>What Medicare Covers in Hospice</h3>
+            <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4);line-height:1.65">Under Medicare Part A (and most Medicaid plans), hospice services are covered at no cost. Covered services include:</p>
+            <ul>
+              <li>Nursing care and physician services</li>
+              <li>Home health aide and homemaker services</li>
+              <li>Social work services</li>
+              <li>Chaplain and spiritual care</li>
+              <li>All prescription drugs related to the hospice diagnosis</li>
+              <li>Durable medical equipment (bed, oxygen, wheelchair, etc.)</li>
+              <li>Medical supplies (wound dressings, catheters)</li>
+              <li>Respite care (up to 5 consecutive days)</li>
+              <li>Bereavement support for 13 months after death</li>
+              <li>24/7 on-call availability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="questions" aria-labelledby="faq-heading">
+      <div class="container--narrow">
+        <div class="section-header"><span class="section-tag">Step 8</span><h2 id="faq-heading">Common Questions from Families</h2><p>These are the questions families ask most often. If yours isn't here, call your hospice nurse — no question is too small.</p></div>
+        <div class="faq-list" role="list">
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">How do I know if my loved one is in pain if they can't speak?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">Watch for nonverbal pain indicators: furrowed brow, grimacing, clenching the jaw or fists, moaning during movement, rigid body posture, or restlessness. Hospice nurses use validated tools to assess pain in nonverbal patients. Document the time and what you observed, then call the hospice nurse. Comfort medications can be adjusted based on these observations — you don't need to wait for the patient to ask for relief.</div></div></div>
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">Should I force my loved one to eat and drink?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">No. A decrease in appetite and thirst is a natural part of the dying process, not a cause of death. At end of life, the body gradually stops being able to process food and fluids, and forcing them can actually cause discomfort — including bloating, nausea, and fluid overload. Offer small sips of water or ice chips if your loved one desires them, keep the lips and mouth moist with swabs, and know that the body is gently releasing the need for nourishment.</div></div></div>
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">What is terminal agitation and what should I do?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">Terminal agitation is a state of restlessness, confusion, and sometimes distress that can occur in the final days of life. Signs include picking at bedding or clothing, trying to get out of bed, repetitive movements, or crying out. First, check for simple physical causes: a full bladder, wrinkled sheets, or constipation can all trigger it. Then call the hospice nurse. Medications like haloperidol (Haldol) and lorazepam (Ativan) are very effective at calming this state. You do not have to manage this alone.</div></div></div>
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">Is it normal for my loved one to see people who aren't there?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">Yes, this is very common and well-documented in clinical literature. Many patients at end of life report visions of deceased relatives, often describing them as comforting or welcoming. Respond calmly — do not argue or correct the experience. You might say "I'm here too" or gently ask what they're seeing. These experiences are often peaceful for the patient. Notify the hospice nurse so they can note it in the care record and provide guidance.</div></div></div>
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">How long does the active dying process take?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">Active dying typically lasts 24–48 hours, though this can vary significantly. Some patients pass within hours of the first signs; others remain in active dying for several days. There is no precise way to predict. The hospice nurse can offer their clinical assessment when they visit. Many families report that their loved one seemed to choose their moment of passing — sometimes waiting for a certain person to arrive, or passing in a quiet moment alone.</div></div></div>
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">What if I wasn't in the room when my loved one died?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">This is one of the most painful experiences for families, and it is also very common. Many patients seem to choose to pass in a quiet, unwitnessed moment — sometimes when a caregiver steps out briefly after days of constant vigil. If this happens to you, please know: your presence, love, and care over those days and weeks are what mattered most. Your hospice's bereavement counselor can provide support if you struggle with guilt around this.</div></div></div>
+          <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false">Can hospice care be stopped if the patient improves?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-a" role="region"><div class="faq-a-inner">Yes. Hospice is not a one-way door. If a patient's condition stabilizes or improves, they can be discharged from hospice and return to curative treatment if desired. The patient or family can request to discontinue hospice services at any time, for any reason. Some patients do improve enough to be discharged and may re-enroll in hospice later if the condition progresses again.</div></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="site-logo" aria-label="Hospice Family Guide"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><circle cx="18" cy="18" r="17" stroke="#4a7c59" stroke-width="2"/><path d="M18 10 C13 10 10 13.5 10 17 C10 22 18 27 18 27 C18 27 26 22 26 17 C26 13.5 23 10 18 10Z" fill="#4a7c59" fill-opacity="0.2" stroke="#4a7c59" stroke-width="1.5" stroke-linejoin="round"/><path d="M15 18 L17.5 20.5 L21.5 15.5" stroke="#4a7c59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="logo-text">Hospice Family Guide</span></a>
+        <p>A free, fact-based resource for families navigating hospice care. All information is drawn from peer-reviewed clinical literature and established hospice care guidelines.</p>
+      </div>
+      <div class="footer-col"><h4>Sections</h4><ul><li><a href="#the-process">The Process</a></li><li><a href="#the-team">Care Team</a></li><li><a href="#medications">Medications</a></li><li><a href="#what-to-expect">Signs of Change</a></li><li><a href="#comfort">Comfort Tips</a></li><li><a href="#after">After Death</a></li><li><a href="#bereavement">Bereavement</a></li><li><a href="#questions">Common Questions</a></li></ul></div>
+      <div class="footer-col"><h4>Trusted Resources</h4><ul><li><a href="https://hospicefoundation.org" target="_blank" rel="noopener noreferrer">Hospice Foundation of America</a></li><li><a href="https://www.nhpco.org" target="_blank" rel="noopener noreferrer">National Hospice &amp; Palliative Care Org</a></li><li><a href="https://www.caringinfo.org" target="_blank" rel="noopener noreferrer">CaringInfo.org</a></li><li><a href="https://www.nia.nih.gov/health/end-of-life" target="_blank" rel="noopener noreferrer">National Institute on Aging</a></li><li><a href="https://www.vitas.com" target="_blank" rel="noopener noreferrer">VITAS Healthcare Resources</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 HospiceFamilyGuide.com · Free educational resource for families</p>
+      <p class="disclaimer">This guide is for educational purposes only and does not constitute medical advice. Always follow the guidance of your hospice care team.</p>
+    </div>
+  </footer>
+  <script>
+    (function(){const t=document.querySelector('[data-theme-toggle]'),r=document.documentElement;let d=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';r.setAttribute('data-theme',d);const si=m=>{if(!t)return;t.setAttribute('aria-label','Switch to '+(m==='dark'?'light':'dark')+' mode');t.innerHTML=m==='dark'?'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';};si(d);if(t)t.addEventListener('click',()=>{d=d==='dark'?'light':'dark';r.setAttribute('data-theme',d);si(d);});})();
+    const hdr=document.getElementById('siteHeader');window.addEventListener('scroll',()=>hdr.classList.toggle('scrolled',scrollY>8),{passive:true});
+    const prg=document.getElementById('readingProgress');window.addEventListener('scroll',()=>{const s=document.documentElement;prg.style.transform='scaleX('+(s.scrollTop/(s.scrollHeight-s.clientHeight)||0)+')';},{passive:true});
+    const mb=document.getElementById('menuBtn'),mn=document.getElementById('mobileNav');mb.addEventListener('click',()=>{const o=mn.classList.toggle('open');mb.setAttribute('aria-expanded',o);mb.innerHTML=o?'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>':'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';});
+    mn.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mn.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.innerHTML='<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';}));
+    document.querySelectorAll('.faq-q').forEach(b=>b.addEventListener('click',()=>{const i=b.closest('.faq-item'),o=i.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(e=>{e.classList.remove('open');e.querySelector('.faq-q').setAttribute('aria-expanded','false');});if(!o){i.classList.add('open');b.setAttribute('aria-expanded','true');}}));
+  </script>
+</body>
+</html>
